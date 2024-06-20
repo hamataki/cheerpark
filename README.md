@@ -1,6 +1,6 @@
-# login
+# cheerpark
 ①課題番号-プロダクト名
-login
+cheerpark
 
 ②課題内容（どんな作品か）
 ログイン機能
