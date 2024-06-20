@@ -24,7 +24,9 @@
         <div class="sports_group">
             <div class="container">
                 <input class="check" id="toggle1" type="checkbox" name="sport[]" value="サッカー">
-                <label class="toggle" for="toggle1">サッカー</label>
+                <label class="toggle" for="toggle1">サッカー
+                    <img src="img./soccer.jpg" alt="">
+                </label>
                 <input class="check" id="toggle2" type="checkbox" name="sport[]" value="野球">
                 <label class="toggle" for="toggle2">野球</label>
                 <input class="check" id="toggle3" type="checkbox" name="sport[]" value="バスケットボールl">

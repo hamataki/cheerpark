@@ -1,0 +1,180 @@
+body {
+    min-width: 250px;
+    color: #435757;
+    background: radial-gradient(#ffffff, #d0dfe4);    
+}
+footer {
+    position: absolute;
+    /*←絶対位置*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;    
+    /*下に固定*/ 
+}
+
+.title {
+    text-align: center;
+    margin: 30px;
+    font-size: 42px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.birth_title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.birth_input{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 4px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;                
+}
+
+.name{
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.name_input{
+    display: flex;
+    justify-content: center;    
+    margin: 0 auto;    
+}
+
+.email{
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.email_input {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.passward {
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+.passward_input{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;        
+}
+
+/* 好きなスポーツ選択 */
+.sports {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+.sports_group{
+    display: flex;
+    justify-content: center;   
+}
+.container {
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.toggle {
+    position: relative;
+    margin: 15px;
+    padding: 15px 30px 15px 62px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #6a8494;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color .2s, box-shadow .2s;
+}
+
+.check {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    width: 32px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    transition: background-color .2s;
+}
+
+.toggle:hover,
+.check:focus+label {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+.check:checked+label {
+    background-color: #ab576c;
+}
+
+.check:checked+.toggle::before {
+    background-color: #fff;
+}
+.other_group{
+    display: flex;
+    justify-content: center;    
+}
+
+.other{   
+    max-width: 450px;
+    text-align: left;
+    margin: 10px;
+    padding: 15px 30px 15px 30px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #6a8494;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color .2s, box-shadow .2s;
+}
+.other_txst{
+    padding: 10px;
+    background-color: #e1f3f3;
+    border: none;
+    border-radius: 100px;
+}
+.other:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+.other:hover {
+    background-color: #ab576c;
+}
+
+.other_group {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    margin-top: 15px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 18px;
+}
