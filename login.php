@@ -52,7 +52,7 @@
 <?php
 $birth = $_POST['birth'];
 
-$file = fopen("data.csv","a");
+$file = fopen("data.txt","a");
 fwrite($file,$birth."\n");
 fclose($file);
 ?>

@@ -10,7 +10,7 @@ $other = $_POST["other"];
 
 $str = $name.$c.$email.$c.$passward.$c.$sport.$c.$other;
 // データをCSVファイルに書き込み
-$file = fopen("data.csv","a");
+$file = fopen("data.txt","a");
 fwrite($file,$str."\n");
 // ファイルを閉じる
 fclose($file);
