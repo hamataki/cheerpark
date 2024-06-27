@@ -1,15 +1,13 @@
 body {
     min-width: 250px;
     color: #435757;
-    background: radial-gradient(#ffffff, #d0dfe4);    
+    background: radial-gradient(#ffffff, #d0dfe4);
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 footer {
-    position: absolute;
-    /*←絶対位置*/
-    left: 50%;
-    transform: translate(-50%, -50%);
-    bottom: 0;    
-    /*下に固定*/ 
+    text-align: center;
 }
 
 .title {
@@ -21,21 +19,23 @@ footer {
 
 .birth_title{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
     font-size: 18px;
 }
 
 .birth_input{
     display: flex;
+    text-align: center;
     justify-content: center;
     margin: 10px auto;
     padding: 4px;
 }
 
-.btn{
+.send{
     display: flex;
     justify-content: center;
-    margin: 0 auto;                
+    margin: 0 auto;
+    margin-bottom: 30px;         
 }
 
 .name{
